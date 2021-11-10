@@ -1,4 +1,5 @@
 import csv
+
 # data preprocessing
 read_file = open('경찰청_전국 경찰서별 강력범죄 발생 현황_20201231.csv', 'r', encoding='euc-kr')
 read_data = csv.reader(read_file)

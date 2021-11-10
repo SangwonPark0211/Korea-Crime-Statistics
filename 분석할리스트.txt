@@ -1,0 +1,4 @@
+1. cluster로 구분해 특성(클러스터 수 : 4 or 5)
+    1.1 K-mean cluster : visualize cluster assignment로 시각화해서도 봐보자
+2. visualization 탭을 통해서 각 특성별 관계 파악
+3. 연관분석

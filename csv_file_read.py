@@ -1,7 +1,7 @@
 import csv
 
 # data preprocessing
-read_file = open('경찰청_전국 경찰서별 강력범죄 발생 현황_20201231.csv', 'r', encoding='euc-kr')
+read_file = open('경찰청_전국 경찰서별 강력범죄 발생 현황.csv', 'r', encoding='euc-kr')
 read_data = csv.reader(read_file)
 write_file = open('output.csv', 'w', encoding='utf-8', newline='')
 wr = csv.writer(write_file)
@@ -22,3 +22,5 @@ po_file = open('police_office_table.txt', 'w', encoding='euc-kr')
 for key in po_dict:
     po_file.write(str(po_dict[key]) + ' ' + key + '\n')
 po_file.close()
+
+# 2018~2019 data processing

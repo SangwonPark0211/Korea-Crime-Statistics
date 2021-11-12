@@ -22,5 +22,3 @@ po_file = open('police_office_table.txt', 'w', encoding='euc-kr')
 for key in po_dict:
     po_file.write(str(po_dict[key]) + ' ' + key + '\n')
 po_file.close()
-
-# 2018~2019 data processing
